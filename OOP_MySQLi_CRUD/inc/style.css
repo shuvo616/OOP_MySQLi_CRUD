@@ -1,0 +1,58 @@
+body{font-family: Georgia;}
+
+.phpcoding {
+    width: 900px;
+    margin: 0 auto;
+    background: #a2afa8;
+}
+.headersection, .footersection{
+	background: #647b6a;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+.headersection h2,.footersection h2{
+	margin: 0;
+}
+.mainsection {
+    min-height: 450px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+input[type='text'] {
+    padding: 4px;
+    width: 210px;
+}
+input[type='submit'],input[type='reset'] {
+    width: 72px;
+    padding: 4px;
+    border: 1px solid #ffffff;
+}
+
+.tblone{
+	width: 100%;
+	border:1px solid #ffffff;
+	margin: 20px 0;
+}
+
+.tblone td{
+	padding: 5px 10px;
+	text-align: center;
+}
+
+table.tblone tr:nth-child(2n+1){background: #ffffff; height: 30px;}
+table.tblone tr:nth-child(2n){background: #f1f1f1; height: 30px;}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 4px 12px;
+    background: #f5deb3;
+}
+.btn a {
+    text-decoration: none;
+    color: #15672f;
+    font-size: 15px;
+    font-weight: bold;
+}
